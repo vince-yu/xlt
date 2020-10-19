@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XLTFullScreenSJVideoVC">
+            <connections>
+                <outlet property="closeButton" destination="hzF-Vq-hDA" id="Del-nc-9gc"/>
+                <outlet property="playerContainerView" destination="DRZ-7C-Wkh" id="x5k-fT-xZe"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DRZ-7C-Wkh">
+                    <rect key="frame" x="10" y="342" width="394" height="222"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="DRZ-7C-Wkh" secondAttribute="height" multiplier="16:9" id="hax-2F-9Lo"/>
+                    </constraints>
+                </view>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hzF-Vq-hDA">
+                    <rect key="frame" x="185" y="589" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="44" id="fuT-ue-OyZ"/>
+                        <constraint firstAttribute="height" constant="44" id="sY0-xS-g4b"/>
+                    </constraints>
+                    <state key="normal" image="xinletao_close_icon"/>
+                    <connections>
+                        <action selector="closeButtonAction:" destination="-1" eventType="touchUpInside" id="SBv-IR-KUE"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="DRZ-7C-Wkh" firstAttribute="centerY" secondItem="Q5M-cg-NOt" secondAttribute="centerY" id="9eJ-8A-1ko"/>
+                <constraint firstItem="hzF-Vq-hDA" firstAttribute="centerX" secondItem="DRZ-7C-Wkh" secondAttribute="centerX" id="QeC-tr-D33"/>
+                <constraint firstItem="hzF-Vq-hDA" firstAttribute="top" secondItem="DRZ-7C-Wkh" secondAttribute="bottom" constant="25" id="aBC-q8-Gv7"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="DRZ-7C-Wkh" secondAttribute="trailing" constant="10" id="ndU-jP-Hbh"/>
+                <constraint firstItem="DRZ-7C-Wkh" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="10" id="vJ7-oD-YY0"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="139" y="124"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="xinletao_close_icon" width="35" height="35"/>
+    </resources>
+</document>

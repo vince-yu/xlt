@@ -1,0 +1,19 @@
+${PODS_ROOT}/Target Support Files/Pods-XingLeTao/Pods-XingLeTao-resources.sh
+${PODS_ROOT}/AliAuthSDK/AlibabaAuthSDK.framework/AlibabaAuthSDK.bundle
+${PODS_ROOT}/AliLinkPartnerSDK/AlibcLinkPartnerSDK.framework/SmartLink.bundle
+${PODS_ROOT}/AlibcTradeSDK/AlibcTradeBiz.framework/NBResource.bundle
+${PODS_ROOT}/AlipaySDK_No_UTDID/AlipaySDK_No_UTDID/AlipaySDK.bundle
+${PODS_ROOT}/DadaChargeSDK/DadaChargeSDK/CodeScan.bundle
+${PODS_ROOT}/DadaChargeSDK/DadaChargeSDK/DadaCharge.bundle
+${PODS_ROOT}/LBXScan/LBXScan/UI/CodeScan.bundle
+${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
+${PODS_ROOT}/SJBaseVideoPlayer/SJBaseVideoPlayer/ResourceLoader/SJBaseVideoPlayerResources.bundle
+${PODS_ROOT}/SJVideoPlayer/SJVideoPlayer/ResourceLoader/SJVideoPlayer.bundle
+${PODS_ROOT}/WindVane/WindVaneBasic.framework/Resources/WindVaneBasic.bundle
+${PODS_ROOT}/WindVane/WindVaneBasic.framework/Resources/NebulaWK.bundle
+${PODS_ROOT}/WindVane/WindVaneCore.framework/WindVaneBasic.bundle
+${PODS_ROOT}/WindVane/WindVaneCore.framework/NebulaWK.bundle
+${PODS_ROOT}/securityGuard/SGMiddleTier.framework/bx-cancel.png
+${PODS_ROOT}/securityGuard/SGMiddleTier.framework/bx-cancel@2x.png
+${PODS_ROOT}/securityGuard/SGMiddleTier.framework/bx-refresh.png
+${PODS_ROOT}/securityGuard/SGMiddleTier.framework/bx-refresh@2x.png

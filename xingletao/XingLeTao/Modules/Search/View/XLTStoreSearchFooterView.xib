@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="XLTStoreSearchFooterView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="394"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VSf-ID-7bO">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="379"/>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="VSf-ID-7bO" firstAttribute="bottom" secondItem="U6b-Vx-4bR" secondAttribute="bottom" constant="-15" id="FKt-CT-GCo"/>
+                <constraint firstItem="VSf-ID-7bO" firstAttribute="centerX" secondItem="U6b-Vx-4bR" secondAttribute="centerX" id="LAP-LD-DpM"/>
+                <constraint firstItem="VSf-ID-7bO" firstAttribute="width" secondItem="U6b-Vx-4bR" secondAttribute="width" id="Z1e-9v-p4r"/>
+                <constraint firstAttribute="top" secondItem="VSf-ID-7bO" secondAttribute="top" id="lZL-iC-B3H"/>
+            </constraints>
+            <connections>
+                <outlet property="letaobgImageView" destination="VSf-ID-7bO" id="R9C-WX-f0u"/>
+            </connections>
+            <point key="canvasLocation" x="118.84057971014494" y="275.89285714285711"/>
+        </collectionReusableView>
+    </objects>
+</document>

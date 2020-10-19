@@ -1,0 +1,19 @@
+//
+//  UIColor+Extension.m
+//  97973
+//
+//  Created by yangpan on 14/12/9.
+//  Copyright (c) 2014年 sina. All rights reserved.
+//
+
+#import "UIColor+Extension.h"
+
+@implementation UIColor (Extension)
+- (BOOL)sameColor:(UIColor*)color
+{
+    if (CGColorEqualToColor(self.CGColor, color.CGColor)) {
+        return YES;
+    }
+    return NO;
+}
+@end

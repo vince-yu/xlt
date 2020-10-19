@@ -1,0 +1,17 @@
+//
+//  XLDGoodsTextCollectionViewCell.h
+//  XingLeTao
+//
+//  Created by chenhg on 2019/10/9.
+//  Copyright © 2019 snqu. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "XLTGoodsDetailCellsFactory.h"
+NS_ASSUME_NONNULL_BEGIN
+
+@interface XLDGoodsTextCollectionViewCell : UICollectionViewCell <XLTGoodsDetailCellProtocol>
+@property (nonatomic, weak) IBOutlet UILabel *letaoGoodDetailTextLabel;
+@end
+
+NS_ASSUME_NONNULL_END

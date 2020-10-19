@@ -1,0 +1,25 @@
+//
+//  UIColor+Image.m
+//  SinaGames
+//
+//  Created by Terry on 14-3-22.
+//  Copyright (c) 2014年 bond. All rights reserved.
+//
+
+#import "UIColor+Image.h"
+
+
+@implementation UIColor (Image)
+
++ (UIColor *)colorWithImage:(NSString *)imageName
+{
+    
+	NSString *pathResource = [[NSBundle mainBundle] pathForResource:imageName ofType:@"png"];
+	UIImage *backImage = [[[UIImage alloc]initWithContentsOfFile:pathResource] autorelease];
+	
+    return [UIColor colorWithPatternImage:backImage];
+
+}
+
+
+@end

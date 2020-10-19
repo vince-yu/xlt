@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="XLTAddressPickerVC">
+            <connections>
+                <outlet property="contentBgView" destination="DJx-93-kyx" id="wp8-pt-8kh"/>
+                <outlet property="letaoBgView" destination="BVA-s0-A6D" id="R9f-8J-moV"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BVA-s0-A6D">
+                    <rect key="frame" x="0.0" y="387.5" width="414" height="474.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="选择收货城市" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g91-DP-SIQ">
+                            <rect key="frame" x="159" y="17" width="96" height="22.5"/>
+                            <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="16"/>
+                            <color key="textColor" red="0.074509803920000006" green="0.078431372550000003" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zR3-M9-s1f">
+                            <rect key="frame" x="370" y="6" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="73i-GJ-bhd"/>
+                                <constraint firstAttribute="height" constant="44" id="dIy-qS-yfJ"/>
+                            </constraints>
+                            <state key="normal" image="fork_close_icon"/>
+                            <connections>
+                                <action selector="letaoCloseBtnClicked:" destination="-1" eventType="touchUpInside" id="VZe-1y-9BH"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DJx-93-kyx">
+                            <rect key="frame" x="0.0" y="56.5" width="414" height="418"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="zR3-M9-s1f" secondAttribute="trailing" id="F20-78-BQO"/>
+                        <constraint firstItem="g91-DP-SIQ" firstAttribute="top" secondItem="BVA-s0-A6D" secondAttribute="top" constant="17" id="V6l-oy-SgJ"/>
+                        <constraint firstItem="DJx-93-kyx" firstAttribute="width" secondItem="BVA-s0-A6D" secondAttribute="width" id="VGA-mp-14F"/>
+                        <constraint firstItem="g91-DP-SIQ" firstAttribute="centerX" secondItem="BVA-s0-A6D" secondAttribute="centerX" id="fnb-4X-T4H"/>
+                        <constraint firstItem="DJx-93-kyx" firstAttribute="centerX" secondItem="BVA-s0-A6D" secondAttribute="centerX" id="hYO-cc-TrF"/>
+                        <constraint firstAttribute="width" secondItem="BVA-s0-A6D" secondAttribute="height" multiplier="375:430" id="krv-wX-sz6"/>
+                        <constraint firstItem="DJx-93-kyx" firstAttribute="top" secondItem="g91-DP-SIQ" secondAttribute="bottom" constant="17" id="mK2-pa-g7X"/>
+                        <constraint firstAttribute="bottom" secondItem="DJx-93-kyx" secondAttribute="bottom" id="wz8-Sl-Ivy"/>
+                        <constraint firstItem="zR3-M9-s1f" firstAttribute="centerY" secondItem="g91-DP-SIQ" secondAttribute="centerY" id="yof-On-ci6"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="BVA-s0-A6D" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="3Le-dz-VsZ"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="BVA-s0-A6D" secondAttribute="bottom" id="XlF-36-bBH"/>
+                <constraint firstItem="BVA-s0-A6D" firstAttribute="centerX" secondItem="Q5M-cg-NOt" secondAttribute="centerX" id="iH8-gr-f0p"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="131.8840579710145" y="140.625"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="fork_close_icon" width="11" height="11"/>
+    </resources>
+</document>

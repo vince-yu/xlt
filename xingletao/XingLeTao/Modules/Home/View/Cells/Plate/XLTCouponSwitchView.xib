@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="XLTCouponSwitchView">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xinletao_home_coupon_image" translatesAutoresizingMaskIntoConstraints="NO" id="mH3-TI-JSg">
+                    <rect key="frame" x="15" y="446.5" width="17" height="13"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="仅显示优惠券商品" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vI1-6q-0ea">
+                    <rect key="frame" x="35" y="443.5" width="105" height="19"/>
+                    <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="dxX-Xr-UPf">
+                    <rect key="frame" x="343" y="437.5" width="51" height="31"/>
+                    <color key="onTintColor" red="1" green="0.50980392159999999" blue="0.0078431372550000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <action selector="switchValueChanged:" destination="iN0-l3-epB" eventType="valueChanged" id="EMQ-Rh-qeT"/>
+                    </connections>
+                </switch>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kei-6M-BAI">
+                    <rect key="frame" x="0.0" y="861.5" width="414" height="0.5"/>
+                    <color key="backgroundColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="4Ef-5w-u3s"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="leading" secondItem="Kei-6M-BAI" secondAttribute="leading" id="0qA-uI-gdD"/>
+                <constraint firstItem="mH3-TI-JSg" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="Cbc-aE-RmC"/>
+                <constraint firstItem="dxX-Xr-UPf" firstAttribute="centerY" secondItem="vI1-6q-0ea" secondAttribute="centerY" id="KTf-Q8-H2J"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Kei-6M-BAI" secondAttribute="bottom" id="Tkg-I5-soR"/>
+                <constraint firstItem="Kei-6M-BAI" firstAttribute="width" secondItem="vUN-kp-3ea" secondAttribute="width" id="Ttb-Nt-VBV"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="dxX-Xr-UPf" secondAttribute="trailing" constant="22" id="kIS-iV-1vy"/>
+                <constraint firstItem="mH3-TI-JSg" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="pwB-mx-c9x"/>
+                <constraint firstItem="vI1-6q-0ea" firstAttribute="leading" secondItem="mH3-TI-JSg" secondAttribute="trailing" constant="3" id="qs8-ut-Ofg"/>
+                <constraint firstItem="vI1-6q-0ea" firstAttribute="centerY" secondItem="mH3-TI-JSg" secondAttribute="centerY" id="zgi-Rl-gO7"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="couponSwitch" destination="dxX-Xr-UPf" id="cgK-SJ-pDU"/>
+            </connections>
+            <point key="canvasLocation" x="132" y="123"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="xinletao_home_coupon_image" width="17" height="13"/>
+    </resources>
+</document>

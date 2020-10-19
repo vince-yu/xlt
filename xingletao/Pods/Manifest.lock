@@ -1,0 +1,265 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - AliAuthSDK (2.0.0.3)
+  - AlibcTradeSDK (4.0.0.8)
+  - AliLinkPartnerSDK (4.0.0.24)
+  - AlipaySDK_No_UTDID (15.5.0):
+    - UTDID
+  - Base64 (1.1.2)
+  - BCUserTrack (5.2.0.11-appkeys):
+    - UTDID
+  - CocoaAsyncSocket (7.6.4)
+  - DadaChargeSDK (1.0.8):
+    - JWT (= 2.2.0)
+    - LBXScan/LBXNative
+    - LBXScan/UI
+  - FCUUID (1.3.1):
+    - UICKeyChainStore (~> 2.1.0)
+  - IQKeyboardManager (6.5.5)
+  - JCore (2.2.5)
+  - JMLink (1.0.0):
+    - JCore (< 3.0.0, >= 2.1.0)
+  - JWT (2.2.0):
+    - Base64 (~> 1.1.2)
+  - KTVCocoaHTTPServer (1.0.0):
+    - CocoaAsyncSocket
+  - KTVHTTPCache (2.0.1):
+    - KTVCocoaHTTPServer
+  - LBXScan/LBXNative (2.3):
+    - LBXScan/Types (~> 2.2)
+  - LBXScan/Types (2.3)
+  - LBXScan/UI (2.3):
+    - LBXScan/Types (~> 2.2)
+  - libwebp (1.1.0):
+    - libwebp/demux (= 1.1.0)
+    - libwebp/mux (= 1.1.0)
+    - libwebp/webp (= 1.1.0)
+  - libwebp/demux (1.1.0):
+    - libwebp/webp
+  - libwebp/mux (1.1.0):
+    - libwebp/demux
+  - libwebp/webp (1.1.0)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.4.1)
+  - mtopSDK (3.0.0.4)
+  - Reachability (3.2)
+  - SDWebImage (5.9.1):
+    - SDWebImage/Core (= 5.9.1)
+  - SDWebImage/Core (5.9.1)
+  - SDWebImageWebPCoder (0.6.1):
+    - libwebp (~> 1.0)
+    - SDWebImage/Core (~> 5.7)
+  - securityGuard (5.4.173)
+  - SJBaseVideoPlayer (3.2.7):
+    - Masonry
+    - Reachability
+    - SJBaseVideoPlayer/AVPlayer (= 3.2.7)
+    - SJBaseVideoPlayer/Common (= 3.2.7)
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/AVPlayer (3.2.7):
+    - Masonry
+    - Reachability
+    - SJBaseVideoPlayer/Common
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/Common (3.2.7):
+    - Masonry
+    - Reachability
+    - SJBaseVideoPlayer/ResourceLoader
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/ResourceLoader (3.2.7):
+    - Masonry
+    - Reachability
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJUIKit/AttributesFactory (0.0.0.42):
+    - SJUIKit/AttributesFactory/Deprecated (= 0.0.0.42)
+    - SJUIKit/AttributesFactory/UIKitText (= 0.0.0.42)
+  - SJUIKit/AttributesFactory/Deprecated (0.0.0.42)
+  - SJUIKit/AttributesFactory/UIKitText (0.0.0.42)
+  - SJUIKit/ObserverHelper (0.0.0.42)
+  - SJUIKit/Queues (0.0.0.42)
+  - SJUIKit/SQLite3 (0.0.0.42):
+    - SJUIKit/SQLite3/Core (= 0.0.0.42)
+    - SJUIKit/SQLite3/Protocol (= 0.0.0.42)
+  - SJUIKit/SQLite3/Core (0.0.0.42):
+    - SJUIKit/SQLite3/Protocol
+  - SJUIKit/SQLite3/Protocol (0.0.0.42)
+  - SJVideoPlayer (3.2.4):
+    - SJBaseVideoPlayer (>= 3.2.5)
+    - SJVideoPlayer/Common (= 3.2.4)
+    - SJVideoPlayer/ControlLayers (= 3.2.4)
+    - SJVideoPlayer/ResourceLoader (= 3.2.4)
+  - SJVideoPlayer/Common (3.2.4):
+    - Masonry
+    - SJBaseVideoPlayer (>= 3.2.5)
+    - SJUIKit/AttributesFactory
+    - SJVideoPlayer/ResourceLoader
+  - SJVideoPlayer/ControlLayers (3.2.4):
+    - SJBaseVideoPlayer (>= 3.2.5)
+    - SJVideoPlayer/Common
+  - SJVideoPlayer/ResourceLoader (3.2.4):
+    - SJBaseVideoPlayer (>= 3.2.5)
+  - UICKeyChainStore (2.1.2)
+  - UMCAnalytics (6.1.0):
+    - UMCCommon
+  - UMCCommon (2.1.4)
+  - UMCPush (3.2.4):
+    - UMCCommon
+  - UTDID (1.1.0.16)
+  - WindVane (8.5.0.46-bc7-mini):
+    - WindVane/Basic (= 8.5.0.46-bc7-mini)
+    - WindVane/Core (= 8.5.0.46-bc7-mini)
+    - WindVane/WindVane (= 8.5.0.46-bc7-mini)
+  - WindVane/Basic (8.5.0.46-bc7-mini)
+  - WindVane/Core (8.5.0.46-bc7-mini)
+  - WindVane/WindVane (8.5.0.46-bc7-mini)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.2.1)
+  - AliAuthSDK (= 2.0.0.3)
+  - AlibcTradeSDK (= 4.0.0.8)
+  - AliLinkPartnerSDK (= 4.0.0.24)
+  - AlipaySDK_No_UTDID
+  - BCUserTrack (= 5.2.0.11-appkeys)
+  - DadaChargeSDK
+  - FCUUID
+  - IQKeyboardManager
+  - JMLink
+  - KTVHTTPCache (~> 2.0.0)
+  - Masonry
+  - MBProgressHUD
+  - MJRefresh
+  - mtopSDK (= 3.0.0.4)
+  - SDWebImage
+  - SDWebImageWebPCoder
+  - securityGuard (= 5.4.173)
+  - SJBaseVideoPlayer (from `https://gitee.com/changsanjiang/SJBaseVideoPlayer.git`)
+  - SJVideoPlayer (from `https://gitee.com/changsanjiang/SJVideoPlayer.git`)
+  - UMCAnalytics
+  - UMCCommon
+  - UMCPush
+  - UTDID (= 1.1.0.16)
+  - WindVane (= 8.5.0.46-bc7-mini)
+  - YYText
+
+SPEC REPOS:
+  http://repo.baichuan-ios.taobao.com/baichuanSDK/AliBCSpecs.git:
+    - AliAuthSDK
+    - AlibcTradeSDK
+    - AliLinkPartnerSDK
+    - BCUserTrack
+    - mtopSDK
+    - securityGuard
+    - UTDID
+    - WindVane
+  https://gitee.com/gokd/kd-IOS-Fleet-In-Specs.git:
+    - DadaChargeSDK
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - AlipaySDK_No_UTDID
+    - Base64
+    - CocoaAsyncSocket
+    - FCUUID
+    - IQKeyboardManager
+    - JCore
+    - JMLink
+    - JWT
+    - KTVCocoaHTTPServer
+    - KTVHTTPCache
+    - LBXScan
+    - libwebp
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - Reachability
+    - SDWebImage
+    - SDWebImageWebPCoder
+    - SJUIKit
+    - UICKeyChainStore
+    - UMCAnalytics
+    - UMCCommon
+    - UMCPush
+    - YYText
+
+EXTERNAL SOURCES:
+  SJBaseVideoPlayer:
+    :git: https://gitee.com/changsanjiang/SJBaseVideoPlayer.git
+  SJVideoPlayer:
+    :git: https://gitee.com/changsanjiang/SJVideoPlayer.git
+
+CHECKOUT OPTIONS:
+  SJBaseVideoPlayer:
+    :commit: b11326aa13b6e36ce0a3194298e3a98203aa6aec
+    :git: https://gitee.com/changsanjiang/SJBaseVideoPlayer.git
+  SJVideoPlayer:
+    :commit: 765c92bc023ac5f8a8976eadd6cf9a0e1183737c
+    :git: https://gitee.com/changsanjiang/SJVideoPlayer.git
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AliAuthSDK: be6caff0bb645ad663c75f311170b2a3b069780e
+  AlibcTradeSDK: 72d36e433ecfbd4c78b5199f0db4f70fd4be374b
+  AliLinkPartnerSDK: c5778cdfdcee7bfe342238d39a77766184d36a46
+  AlipaySDK_No_UTDID: dfd49e4e1dc49f2f98a46594653b98098ca9a9eb
+  Base64: cecfb41a004124895a7bcee567a89bae5a89d49b
+  BCUserTrack: f267dfb52a6e67603c33668f2e9384ee01b68a88
+  CocoaAsyncSocket: 694058e7c0ed05a9e217d1b3c7ded962f4180845
+  DadaChargeSDK: 970c3f68d3b0f8ac28341ba8d49fffe3a5570901
+  FCUUID: bb054fc90cd7cd99320f9f6ff8e130fe607fba05
+  IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
+  JCore: d75c0306dc99875d323d23e5a063b3a3ef22335a
+  JMLink: e09c177c7ac771b8fc4f5f4269b3adf6e8871418
+  JWT: cf73c0ab0dac762df3de8a3f1164352089d97780
+  KTVCocoaHTTPServer: df8d7b861e603ff8037e9b2138aca2563a6b768d
+  KTVHTTPCache: 588c3eb16f6bd1e6fde1e230dabfb7bd4e490a4d
+  LBXScan: e51449f0832d1fe17da632af0d22adeb3cfa3543
+  libwebp: 04242ef451672185c1fe41b285a034d2fbda483c
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 3153c59a363159092c08b2177ec3a7d09f90bfaf
+  mtopSDK: bf447d4361b0199790e2a2829a1cc0299df71716
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SDWebImage: a990c053fff71e388a10f3357edb0be17929c9c5
+  SDWebImageWebPCoder: d0dac55073088d24b2ac1b191a71a8f8d0adac21
+  securityGuard: 35d3a1b5877bb2de4698a78089eb8906fa3ad27b
+  SJBaseVideoPlayer: f08787efb5154bf08f9439441b36bd86efcc4ec3
+  SJUIKit: 1356488a2488a9aafeddaf6a098006277c0eb9b8
+  SJVideoPlayer: acee9fab2b384fc87ed7636c05977d8dd3cdb4ee
+  UICKeyChainStore: 85db518bb1d294366d15ec9b92a416c4e670518f
+  UMCAnalytics: 3503f179f7af932b30af9ac161ac11fb48fa72b6
+  UMCCommon: b0703b0053323f598e01670ea702b8eb1e66e611
+  UMCPush: 1edd856027dcf905333effb4040ace5d236a7316
+  UTDID: c28855683c5ea2e77e597cb14609328f7d470d6e
+  WindVane: ee556348de44cd9e68b16b28873b7b5bb9ecfa6d
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: 40a584147390ed27c8a43a4d84ad8e00f99333be
+
+COCOAPODS: 1.9.3

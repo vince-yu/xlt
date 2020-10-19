@@ -1,0 +1,6 @@
+framework module SndoDataSDK {
+  umbrella header "SndoDataSDK.h"
+
+  export *
+  module * { export * }
+}

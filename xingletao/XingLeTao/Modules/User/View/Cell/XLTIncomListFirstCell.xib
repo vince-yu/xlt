@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="XLTIncomListFirstCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U3U-ew-cI4">
+                        <rect key="frame" x="137.5" y="20" width="45" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="45" id="6nI-kH-Kz6"/>
+                            <constraint firstAttribute="height" constant="45" id="pAn-Tj-fW8"/>
+                        </constraints>
+                        <state key="normal" image="xingletao_mine_header_placeholder"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ocf-PW-JB5">
+                        <rect key="frame" x="20" y="80" width="280" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="hCH-Jt-mP6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="PingFangSC-Medium" family="PingFang SC" pointSize="14"/>
+                        <color key="textColor" red="0.1450980392" green="0.15686274510000001" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o2U-RF-giE">
+                        <rect key="frame" x="20" y="104" width="280" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="6qD-eN-Wvi"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="14"/>
+                        <color key="textColor" red="0.96862745100000003" green="0.2156862745" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xlt_income_list_1" translatesAutoresizingMaskIntoConstraints="NO" id="Qld-vM-ubu">
+                        <rect key="frame" x="138.5" y="53" width="43" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="n1k-z4-6tO"/>
+                            <constraint firstAttribute="width" constant="43" id="qrd-Gd-Xyp"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="o2U-RF-giE" secondAttribute="trailing" constant="20" id="IV8-oG-3OW"/>
+                    <constraint firstItem="o2U-RF-giE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="LHP-zJ-2ii"/>
+                    <constraint firstItem="o2U-RF-giE" firstAttribute="centerX" secondItem="U3U-ew-cI4" secondAttribute="centerX" id="Meg-yR-MDI"/>
+                    <constraint firstItem="ocf-PW-JB5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Q41-mq-aEh"/>
+                    <constraint firstAttribute="trailing" secondItem="ocf-PW-JB5" secondAttribute="trailing" constant="20" id="QsQ-CF-4KN"/>
+                    <constraint firstItem="U3U-ew-cI4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="X7i-2e-Xt0"/>
+                    <constraint firstItem="o2U-RF-giE" firstAttribute="top" secondItem="ocf-PW-JB5" secondAttribute="bottom" constant="10" id="XpP-wn-YWF"/>
+                    <constraint firstItem="U3U-ew-cI4" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="YEZ-KB-RMO"/>
+                    <constraint firstItem="Qld-vM-ubu" firstAttribute="centerX" secondItem="U3U-ew-cI4" secondAttribute="centerX" id="jXR-lU-9ce"/>
+                    <constraint firstItem="Qld-vM-ubu" firstAttribute="centerY" secondItem="U3U-ew-cI4" secondAttribute="bottom" id="uFQ-Gh-lsf"/>
+                    <constraint firstItem="ocf-PW-JB5" firstAttribute="centerX" secondItem="U3U-ew-cI4" secondAttribute="centerX" id="w6C-lB-Gts"/>
+                    <constraint firstItem="ocf-PW-JB5" firstAttribute="top" secondItem="U3U-ew-cI4" secondAttribute="bottom" constant="15" id="yh3-on-eoL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="avatorImageView" destination="U3U-ew-cI4" id="cJv-or-mbr"/>
+                <outlet property="nameLabel" destination="ocf-PW-JB5" id="57k-fM-pWc"/>
+                <outlet property="priceLabel" destination="o2U-RF-giE" id="r4s-0k-Bv5"/>
+            </connections>
+            <point key="canvasLocation" x="136" y="115"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="xingletao_mine_header_placeholder" width="54" height="54"/>
+        <image name="xlt_income_list_1" width="43" height="24"/>
+    </resources>
+</document>

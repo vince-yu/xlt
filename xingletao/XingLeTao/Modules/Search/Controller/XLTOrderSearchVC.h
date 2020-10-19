@@ -1,0 +1,18 @@
+//
+//  XLTOrderSearchVC.h
+//  XingLeTao
+//
+//  Created by chenhg on 2019/10/19.
+//  Copyright © 2019 snqu. All rights reserved.
+//
+
+#import "XLTBaseViewController.h"
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface XLTOrderSearchVC : XLTBaseViewController
+@property (nonatomic, assign) BOOL letaoShowSegment;
+
+@end
+
+NS_ASSUME_NONNULL_END

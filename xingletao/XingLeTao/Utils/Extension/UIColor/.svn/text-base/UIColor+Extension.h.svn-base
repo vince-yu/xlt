@@ -1,0 +1,14 @@
+//
+//  UIColor+Extension.h
+//  97973
+//
+//  Created by yangpan on 14/12/9.
+//  Copyright (c) 2014年 sina. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface UIColor (Extension)
+
+- (BOOL)sameColor:(UIColor*)color;
+@end
